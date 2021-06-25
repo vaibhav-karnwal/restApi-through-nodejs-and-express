@@ -1,40 +1,28 @@
 [
-    {
-        "state": "Delhi",
-        "state_city": [
-            {
-                "city": "New delhi",
-                "chargingStation_city": []
-            },
-            {
-                "city": "old delhi",
-                "chargingStation_city": [
-                    {
-                        "charging_station_name": "nox charging station772"
-                    }
-                ]
-            }
+  {
+    "state": "Uttar Pradesh",
+    "city_list": [
+      {
+        "city": "Noida",
+        "charingStation_list": [
+          {
+            "charging_station_name": "Raft Motors"
+          }
         ]
-    },
-    {
-        "state": "Mumbai",
-        "state_city": [
-            {
-                "city": "Thane",
-                "chargingStation_city": [
-                    {
-                        "charging_station_name": "nox charging station775"
-                    }
-                ]
-            },
-            {
-                "city": "dadar",
-                "chargingStation_city": [
-                    {
-                        "charging_station_name": "nox charging stationkk"
-                    }
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "state": "West Bengal",
+    "city_list": [
+      {
+        "city": "Kolkata",
+        "charingStation_list": [
+          {
+            "charging_station_name": "Raft Motors1"
+          }
         ]
-    }
+      }
+    ]
+  }
 ]
