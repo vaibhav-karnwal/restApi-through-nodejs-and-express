@@ -6,7 +6,33 @@
         "city": "Noida",
         "charingStation_list": [
           {
-            "charging_station_name": "Raft Motors"
+            "charging_station_name": "Raft Motors0"
+          },{
+            "charging_station_name": "Raft Motors1"
+          },{
+            "charging_station_name": "Raft Motors2"
+          }
+        ]
+      },{
+        "city": "Bijnor",
+        "charingStation_list": [
+          {
+            "charging_station_name": "Raft Motors3"
+          },{
+            "charging_station_name": "Raft Motors4"
+          },{
+            "charging_station_name": "Raft Motors5"
+          }
+        ]
+      },{
+        "city": "Ghaziabad",
+        "charingStation_list": [
+          {
+            "charging_station_name": "Raft Motors6"
+          },{
+            "charging_station_name": "Raft Motors7"
+          },{
+            "charging_station_name": "Raft Motors8"
           }
         ]
       }
