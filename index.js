@@ -24,7 +24,7 @@ app.get("/station",(req, res)=>{
 });
 
 app.get("/css-interview-questions",(req, res)=>{
-    res.send(css);
+    res.send(cssData);
 });
 
 app.listen(port, ()=>{
