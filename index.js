@@ -3,6 +3,7 @@ const app = express();
 const importData = require("./data.json");
 const stationData = require("./station.json");
 const projectData = require("./projectdata.json");
+const cssData = require("./css.json");
 let port = process.env.PORT || 3000;
 
 
@@ -20,6 +21,10 @@ app.get("/projectData",(req, res)=>{
 
 app.get("/station",(req, res)=>{
     res.send(stationData);
+});
+
+app.get("/css-interview-questions",(req, res)=>{
+    res.send(css);
 });
 
 app.listen(port, ()=>{
