@@ -27,6 +27,10 @@ app.get("/css-interview-questions",(req, res)=>{
     res.send(cssData);
 });
 
+app.post("/css-interview-question",(req, res)=>{
+    res.send(cssData);
+});
+
 app.listen(port, ()=>{
     console.log('Example app is listening on port http://localhost:${port}');
 });
