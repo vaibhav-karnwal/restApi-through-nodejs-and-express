@@ -4,6 +4,7 @@ const importData = require("./data.json");
 const stationData = require("./station.json");
 const projectData = require("./projectdata.json");
 const cssData = require("./css.json");
+const cssUser = require("./user.json");
 let port = process.env.PORT || 3000;
 
 
@@ -29,6 +30,10 @@ app.get("/css-interview-questions",(req, res)=>{
 
 app.post("/css-interview-question",(req, res)=>{
     res.send(cssData);
+});
+
+app.post("/user",(req, res)=>{
+    res.send(cssUser);
 });
 
 app.listen(port, ()=>{
