@@ -21,10 +21,6 @@ app.get("/projectData",(req, res)=>{
     res.send(projectData);
 });
 
-app.get("/dish",(req, res)=>{
-    res.send(dishData);
-});
-
 app.get("/station",(req, res)=>{
     res.send(stationData);
 });
