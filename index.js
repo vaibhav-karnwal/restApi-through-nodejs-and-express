@@ -5,6 +5,7 @@ const stationData = require("./station.json");
 const projectData = require("./projectdata.json");
 const cssData = require("./css.json");
 const cssUser = require("./user.json");
+const dishData = require("/dish.json");
 let port = process.env.PORT || 3000;
 
 
@@ -18,6 +19,10 @@ app.get("/product",(req, res)=>{
 
 app.get("/projectData",(req, res)=>{
     res.send(projectData);
+});
+
+app.get("/dish",(req, res)=>{
+    res.send(dishData);
 });
 
 app.get("/station",(req, res)=>{
