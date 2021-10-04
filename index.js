@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
 const importData = require("./data.json");
-const stationData = require("./station.json");
+const stationData = require("./detail.json");
 const projectData = require("./projectdata.json");
 const cssData = require("./css.json");
 const cssUser = require("./user.json");
-const dishData = require("/detail.json");
+const dishData = require("/station.json");
 let port = process.env.PORT || 3000;
 
 
