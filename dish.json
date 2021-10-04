@@ -1,18 +1,13 @@
-[
-    {
-        "id":1,
-        "title":"Italian Special",
-        "description":"Italian Foods",
-        "price":"12"
-    },{
-        "id":2,
-        "title":"Italian Special",
-        "description":"Italian Foods",
-        "price":"43"
-    },{
-        "id":3,
-        "title":"Italian Special",
-        "description":"Italian Foods",
-        "price":"12"
-    }
-]
+{"status":200,
+ "message":[
+     {
+         "codechefRank":"286113"
+     },{
+         "hackerrank":"112538"
+     },{
+         "cgpa":"9.0"
+     },{
+         "sem":"Complete"
+     }
+ ]
+}
