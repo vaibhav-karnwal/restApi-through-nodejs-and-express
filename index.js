@@ -13,30 +13,6 @@ app.get("/", (req,res)=>{
     res.send("Hello World");
 });
 
-app.get("/product",(req, res)=>{
-    res.send(importData);
-});
-
-app.get("/projectData",(req, res)=>{
-    res.send(projectData);
-});
-
-app.get("/station",(req, res)=>{
-    res.send(stationData);
-});
-
-app.get("/css-interview-questions",(req, res)=>{
-    res.send(cssData);
-});
-
-app.post("/css-interview-question",(req, res)=>{
-    res.send(cssData);
-});
-
-app.post("/user",(req, res)=>{
-    res.send(cssUser);
-});
-
 app.listen(port, ()=>{
     console.log('Example app is listening on port http://localhost:${port}');
 });
