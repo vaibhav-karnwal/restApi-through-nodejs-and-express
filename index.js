@@ -5,7 +5,7 @@ const stationData = require("./station.json");
 const projectData = require("./projectdata.json");
 const cssData = require("./css.json");
 const cssUser = require("./user.json");
-const dishData = require("/dish.json");
+const dishData = require("/detail.json");
 let port = process.env.PORT || 3000;
 
 
